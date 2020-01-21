@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Crushed&display=swap');
+
+body {
+	font-family: 'Open Sans', cursive;	
+	margin: 0;
+
+}
+
+h1 {
+	font-family: 'Crushed', cursive;
+	text-align: center;
+	border-bottom: 1px solid #999;
+	margin: 0;
+	background: #BEBEBE;
+	text-shadow: 3px 3px 3px rgba(255,255,255,0.6);
+	box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+	padding: 10px 0;
+}
+
+fieldset {
+	width: 61%;
+	margin: 15px auto 15px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	padding: 10px 20px 15px 20px;
+	background: #BEBEBE;
+}
+.fieldinterno {
+	width: 98%;
+	margin: 5px 2px 5px;
+	padding: 10px 0px;
+	border: none;
+	box-shadow: none;
+	background: #BEBEBE;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+label.alinha {
+	width: 40%;
+	display: inline-block;
+	margin-top: 5px;
+	text-align: right;
+}
+
+.box2 {
+  float: left;
+  width: 310px;
+  height: 60px;
+/*  border: 1px solid #999;*/
+}
+
+.box3 {
+  float: left;
+  width: 200px;
+  height: 60px;
+  margin: auto 20px;
+/*  border: 1px solid #999;*/
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+label.min {
+	display: inline-block;
+	font-size: 12px;
+	padding-bottom: 5px;
+
+}
+
+.container {
+	display: block;
+}
+
+.divOpcoes {
+	float: left;
+    width: 180px;
+    height: 22px;
+    font-size: 12px;
+/*    border: 1px solid #999;*/
+}
+
+.divOpcoes3 {
+	float: left;
+    width: 220px;
+    height: 22px;
+    font-size: 12px;
+    margin: auto 10px;
+/*    border: 1px solid black;*/
+}
+
+.emBox2 {
+	display: block;
+	font-family: 'Open Sans', cursive;	
+	width: 180px;
+}
+
+.emBox3 {
+	display: block;
+	font-family: 'Open Sans', cursive;	
+	width: 180px;
+}
+
+button {
+	display: block;
+	font-family: 'Open Sans', cursive;	
+	font-size: 14px;
+	height: 30px;
+	width: 150px;
+	font-weight: bold;
+	margin: 15px auto 15px auto;
+}
+
+p {
+	width: 50%;
+	padding: 20px;
+	background: #ccc;
+	margin: 15px auto;
+	text-align: center;
+	box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+}
